@@ -1,0 +1,17 @@
+.eszuindurem-main {
+  height: auto;
+}
+.udirtgal {
+  margin-top: 1rem;
+  font-weight: 300;
+  line-height: 1.5;
+  text-align: justify;
+  &--subtitle {
+    font-weight: 600;
+  }
+}
+.eszuindurem {
+  & li {
+    margin-left: 1.8rem;
+  }
+}

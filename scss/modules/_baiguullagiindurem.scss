@@ -1,0 +1,47 @@
+@import "../base/base";
+
+.baiguullaga-main {
+  height: auto;
+  width: 100%;
+  .container-baiguullagiinDurem {
+    width: 80%;
+    margin-top: 2.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    & h3 {
+      text-align: center;
+      font-weight: 600;
+    }
+    & h4 {
+      text-align: center;
+      margin-top: 1rem;
+      font-weight: 400;
+    }
+    & h5 {
+      text-align: center;
+      margin-top: 1rem;
+      font-weight: 400;
+    }
+  }
+}
+.durem {
+  font-weight: 700;
+  text-align: center;
+  margin-top: 2.5rem;
+  &--subtitle {
+    text-align: left;
+    font-size: 1rem;
+  }
+}
+.main-durem {
+  & h6 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 1rem;
+  }
+  & ol {
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: justify;
+  }
+}

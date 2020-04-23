@@ -1,0 +1,64 @@
+@import "../base/base";
+.medee-main {
+  height: 140vh;
+}
+.medee-container {
+  display: flex;
+  width: 100%;
+  &__first {
+    width: 55%;
+  }
+  &__second {
+    width: 35%;
+  }
+}
+.medee-container__first {
+  width: 100%;
+}
+// .medee-container__wrapper {
+//   display: flex;
+//   width: 100%;
+//   &__img {
+//     width: 10%;
+//   }
+//   &__text {
+//     width: 85%;
+//   }
+// }
+.medee-container__wrapper {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.medee-container_wrapper__img {
+  float: left;
+  width: 30%;
+}
+
+.medee-container_wrapper__text {
+  float: right;
+  width: 65%;
+  &--paragraph {
+    margin-right: 20px;
+  }
+  & h3 {
+    color: $fontColorSubtitle;
+    margin-bottom: 5px;
+  }
+  .index__medee-icon {
+    margin-bottom: 5px;
+  }
+  &--paragraph {
+    text-align: justify;
+    line-height: 1.5;
+    margin-top: 5px;
+  }
+}
+.clearfix {
+  clear: both;
+}
+.medee-page__img1 {
+  height: auto;
+  width: 100%;
+  border-radius: 5px;
+}

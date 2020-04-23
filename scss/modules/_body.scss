@@ -1,0 +1,19 @@
+@import "../base/base";
+* {
+  margin: 0;
+  padding: 0;
+  max-width: 1260px;
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+}
+body {
+  font-family: "Fira Code", monospace, sans-serif;
+  width: 100%;
+}
+.clearfix {
+  clear: both;
+}
+main {
+  height: auto;
+}

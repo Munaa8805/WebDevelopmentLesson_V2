@@ -1,0 +1,87 @@
+@import "../base/base";
+.bidniituhai-main {
+  height: auto;
+}
+.mendchilgee {
+  height: 80vh;
+
+  & h1 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  & p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+}
+.taniltsuulga {
+  height: 200vh;
+
+  & h1 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  & p {
+    text-align: justify;
+    line-height: 1.5;
+  }
+}
+.udirdlagiinbag {
+  & h1 {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}
+.udidlagiinbaggishuud {
+  width: 100%;
+}
+.udidlagiinbaggishuud__row {
+  width: 100%;
+  display: flex;
+  .udidlagiinbaggishuud__col-1 {
+    width: 50%;
+    height: 50%;
+    .imgUdirdlaga {
+      width: 20rem;
+      height: 11.25rem;
+      & img {
+        width: 20rem;
+        height: 11.25rem;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .udirdlagiinbag {
+      text-align: center;
+      h4 {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+  .udidlagiinbaggishuud__col-2 {
+    width: 50%;
+    height: 50%;
+    .imgUdirdlaga {
+      width: 20rem;
+      height: 11.25rem;
+      & img {
+        width: 20rem;
+        height: 11.25rem;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+    .udirdlagiinbag {
+      text-align: center;
+      h4 {
+        margin-top: 1.5rem;
+      }
+    }
+  }
+}
+.udirdlagiinbag {
+  margin-bottom: 0;
+}

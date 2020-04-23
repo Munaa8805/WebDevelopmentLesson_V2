@@ -1,0 +1,81 @@
+@import "../base/base";
+.contact-main {
+  height: auto;
+}
+.contact {
+  &-map {
+    width: 100%;
+    height: 50vh;
+    background-color: greenyellow;
+  }
+  &-row {
+    display: flex;
+    height: 50vh;
+    margin-top: 40px;
+  }
+  &-6-info {
+    width: 100%;
+    line-height: 1.5;
+    margin-left: 40px;
+    & p {
+      margin-bottom: 5px;
+    }
+  }
+  &-6-email {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  &-hr {
+    margin-top: -20px;
+    margin-bottom: 20px;
+  }
+}
+.form-head-group {
+  display: inline-block;
+  width: 32%;
+  margin-bottom: 10px;
+  font-size: 13px;
+  padding: 6px 12px;
+  height: 44px;
+}
+.form-area {
+  width: 100%;
+  font-size: 13px;
+  height: 150px;
+  padding: 6px 12px;
+}
+.btn-ilgeeh {
+  background-color: $mainOrange;
+  color: #fff;
+  font-size: 14px;
+  padding: 6px 12px;
+  font-weight: 600;
+  border: none;
+  &:hover {
+    color: #fff;
+    background-color: $secondaryOrange;
+  }
+}
+.contactHead {
+  font-size: 14px;
+  background-color: $secondaryOrange;
+  color: #fff;
+  padding: 6px 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 0;
+
+  &-contact {
+    width: 150px;
+  }
+  &-info {
+    width: 250px;
+  }
+}
+.contact-type {
+  margin-left: 15px;
+}
+.contact-phone {
+  margin-left: 20px;
+}

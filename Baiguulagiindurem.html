@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="canonical"
+      href="https://munaa8805.github.io/WebDevelopmentLesson/"
+    />
+    <meta name="Description" content="Монголын геологийн холбоо" />
+    <meta
+      name="keywords"
+      content="geology, mongolian geology, geology science, mongolin geology science, монголын геологийн институт, геологийн институт, геологийн төрийн холбоо, геологийн шинжлэх ухаан, геологийн холбоо, геологийн мэргэжлийн зэрэг, мэргэшсэн геологич , мэргэшсэн инженер, геологийн мэргэшсэн мэргэжилтэн"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style>
+      body {
+        max-width: 1260px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      header {
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        font-family: "Fira Code", monospace, sans-serif;
+        font-size: 17px;
+      }
+      .logo {
+        width: 100px;
+        float: left;
+      }
+
+      .topnav {
+        float: right;
+        overflow: hidden;
+      }
+
+      .topnav a {
+        float: left;
+        display: block;
+        color: #777777;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+
+      .active {
+        /* background-color: #f26520; */
+        color: #777777;
+      }
+
+      .topnav .icon {
+        display: none;
+      }
+
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+      .clearfix {
+        clear: both;
+      }
+      .dropdown .dropbtn {
+        font-size: 17px;
+        border: none;
+        outline: none;
+        color: #777777;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        float: none;
+        color: #777777;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .topnav a:hover,
+      .dropdown:hover .dropbtn {
+        background-color: #f26520;
+        color: white;
+      }
+
+      .dropdown-content a:hover {
+        background-color: #f26520;
+        color: #f0f0f8;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav a:not(:first-child),
+        .dropdown .dropbtn {
+          display: none;
+        }
+        .topnav a.icon {
+          float: right;
+          display: block;
+        }
+      }
+
+      @media screen and (max-width: 600px) {
+        .topnav.responsive {
+          position: relative;
+        }
+        .topnav.responsive .icon {
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.responsive a {
+          float: none;
+          display: block;
+          text-align: left;
+        }
+        .topnav.responsive .dropdown {
+          float: none;
+        }
+        .topnav.responsive .dropdown-content {
+          position: relative;
+        }
+        .topnav.responsive .dropdown .dropbtn {
+          display: block;
+          width: 100%;
+          text-align: left;
+        }
+      }
+    </style>
+    <title>Мэдээ</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="img/logo_mpigm.png" alt="logo" /></div>
+      <div class="topnav" id="myTopnav">
+        <a class="active" href="index.html"><i class="fa fa-home fa-1x"></i></a>
+        <a href="medee.html">Мэдээ</a>
+        <a href="bidniituhai.html">Бидний тухай</a>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Дүрэм журам
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Baiguulagiindurem.html">Байгуулагын дүрэм</a>
+            <a href="Eszuindurem.html">Ёс зүйн дүрэм</a>
+            <a href="Gishuunchleliinjuram.html">Гишүүнчлэлийн журам</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Үйл ажиллагаа
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Uilyvdluud.html">Үйл явдлууд</a>
+            <a href="Setguul.html">Сэтгүүл</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn">
+            Гишүүнчлэл
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="Huraamj.html">Хураамж</a>
+            <a href="Gishuunboloh.html">Гишүүн болох</a>
+            <a href="Gishuuniitorol.html">Гишүүний төрөл</a>
+          </div>
+        </div>
+        <a href="contact.html">Холбоо барих</a>
+        <a
+          href="javascript:void(0);"
+          style="font-size: 15px;"
+          class="icon"
+          onclick="myFunction()"
+          >&#9776;</a
+        >
+      </div>
+    </header>
+    <div class="clearfix"></div>
+    <div><hr class="headHR" /></div>
+    <main>
+      <div class="baiguullaga-main">
+        <div class="container-baiguullagiinDurem">
+          <h3>
+            “МОНГОЛЫН ГЕОЛОГИ, УУЛ УУРХАЙН МЭРГЭЖЛИЙН ИНСТИТУТ” ТӨРИЙН БУС
+            БАЙГУУЛЛАГЫН ДҮРЭМ
+          </h3>
+          <h4>МОНГОЛЫН ГЕОЛОГИ, УУЛ УУРХАЙН МЭРГЭЖЛИЙН ИНСТИТУТ</h4>
+          <h5>ТӨРИЙН БУС БАЙГУУЛЛАГЫН</h5>
+          <p class="durem">ДҮРЭМ</p>
+          <h6 class="durem durem--subtitle">НЭГДҮГЭЭР БҮЛЭГ</h6>
+          <p>Нийтлэг үндэслэл</p>
+          <div class="main-durem">
+            <h6>1 дүгээр зүйл. Ерөнхий зүйл</h6>
+            <ol>
+              <li>
+                “Монголын Геологи, Уул Уурхайн Мэргэжлийн Институт” Төрийн бус
+                байгууллага нь (цаашид “Институт” гэх) Төрийн бус байгууллагын
+                тухай хууль, бусад холбогдох хууль тогтоомж, Монгол Улсын олон
+                улсын гэрээ хэлэлцээр, тэдгээртэй нийцүүлэн гаргасан хууль
+                тогтоомж болон энэхүү дүрмийг үйл ажиллагаандаа мөрдлөг болгож
+                ажиллах, заавал гишүүнчлэлтэй, өөрөө удирдах ёсны, гишүүддээ
+                үйлчлэх, ашгийн төлөө бус, мэргэжлийн төрийн бус байгууллага
+                байна.
+              </li>
+              <li>
+                Институтын оноосон нэр: Монгол хэлээр: “Монголын Геологи, Уул
+                Уурхайн Мэргэжлийн Институт”, товч байдлаар “МГУУМИ” Англи
+                хэлээр: “The Mongolian Professional Institute of Geosciences and
+                Mining”, товч байдлаар “The MPIGM”
+              </li>
+              <li>
+                Институт нь өөрийн бэлгэдэл, албан хэргийн хэвлэмэл хуудас
+                хэрэглэж тамга, тэмдэг, цахим хуудас, хэвлэл, банкинд харилцах
+                данстай байна.
+              </li>
+              <li>
+                Институт нь үүсгэн байгуулагчийн 2014 оны 01 сарын 07-ны өдрийн
+                01-р шийдвэрээр үүсгэн байгуулагдсан.
+              </li>
+            </ol>
+            <h6>
+              2 дугаар зүйл. Институтын зорилго, баримтлах зарчим, үндсэн чиглэл
+            </h6>
+            <ol>
+              <li>Зорилго:</li>
+              <ul>
+                <li>
+                  Институт нь эрдэс баялгийн мэргэжилтнүүдийн мэргэшил, мэдлэг,
+                  үйл ажиллагааны ур чадвар, ёс зүйг дээшлүүлэн, мэргэжлээрээ
+                  олон улсад хүлээн зөвшөөрөгдсөн мэргэшсэн мэргэжилтэн болоход
+                  дэмжлэг үзүүлэх, мэргэжлийн нэр хүнд, үйл ажиллагаанд
+                  хариуцлагын нэгдсэн хэв хэмжээг тогтоох, түүнийг хэрэгжүүлэх
+                  ажлыг зохион байгуулах, олон улсын ижил төрлийн байгууллага,
+                  гадаад, дотоодын зорилго нэгтэй мэргэжилтэнүүдтэй хамтран
+                  ажиллах үйл ажиллагааг үндсэн зорилгоо болгоно.
+                </li>
+              </ul>
+              <li>Баримтлах зарчим</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="wrapper wrapper-footer">
+          <div class="col-3 footer">
+            <div class="footer__body">
+              <h4 class="footer__body__header">Гишүүн байгууллага</h4>
+              <p class="footer__body--borderbottom"></p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://www.smenet.org/" target="_blank">SME</a>
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="http://www.minerals.org.au/" target="_blank"
+                  >Mineral</a
+                >
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="http://www.ot.mn/" target="_blank">Оюу толгой ХХК</a>
+              </p>
+            </div>
+          </div>
+          <div class="col-3 footer">
+            <div class="footer__body">
+              <h4 class="footer__body__header">Төрийн бус байгууллага</h4>
+              <p class="footer__body--borderbottom"></p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="http://www.minmineria.gob.cl/" target="_blank"
+                  >Minerial</a
+                >
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://www.sonami.cl/v2/" target="_blank">Sonami</a>
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://www.mineralscouncil.org.za/" target="_blank"
+                  >Minerals South Africa</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-3 footer">
+            <div class="footer__body">
+              <h4 class="footer__body__header">Олон улсын байгууллага</h4>
+              <p class="footer__body--borderbottom"></p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://www.cim.org/" target="_blank">CIM</a>
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://ausimm.com/" target="_blank">AUSIMM</a>
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://www.eurogeologists.de/" target="_blank"
+                  >EUROGEOLOGISTS.DE</a
+                >
+              </p>
+            </div>
+          </div>
+          <div class="col-3 footer">
+            <div class="footer__body">
+              <h4 class="footer__body__header">Салбар байгууллага</h4>
+              <p class="footer__body--borderbottom"></p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://www.aig.org.au/" target="_blank">AIG</a>
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://ausimm.com/" target="_blank">AUSIMM</a>
+              </p>
+              <p class="footer__body footer__body--company">
+                <i class="fa fa-link"></i>
+                <a href="https://web.jse.co.za/" target="_blank">JSE</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-developer">
+        <p class="footer-developer--name">
+          Вебийг хөгжүүлсэн Мунаа &copy;2020 он
+        </p>
+      </div>
+    </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>

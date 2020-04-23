@@ -1,0 +1,73 @@
+@import "../base/base";
+footer {
+  background-color: $footeBackground;
+  margin-top: 2rem;
+}
+.contact-map {
+  margin-top: 20px;
+}
+.wrapper-footer {
+  display: flex;
+  width: 100%;
+  height: 200px;
+}
+.footer__body {
+  width: 100%;
+  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
+  &__header {
+    font-size: 14px;
+    font-weight: 700;
+    color: $fontColorP;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+    padding-bottom: 10px;
+    color: $fontColorFooterA;
+  }
+  &--borderbottom {
+    margin-bottom: 5px;
+    border-bottom: 5px solid $fontColorFooterA;
+  }
+  &--company {
+    margin-bottom: 5px;
+
+    & a {
+      color: $fontColorP;
+      text-decoration: none;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-size: 13px;
+    }
+    & i {
+      color: $fontColorP;
+      padding-bottom: 10px;
+      padding-top: 10px;
+      font-size: 13px;
+    }
+    &:hover {
+      background-color: $mainOrange;
+      padding: 5px 2px 5px;
+      transform: scale(1.01);
+
+      & a,
+      i {
+        color: #fff;
+        margin-left: 10px;
+      }
+    }
+  }
+}
+.footer-developer {
+  background-color: #303038;
+  &--name {
+    color: $fontColorP;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
