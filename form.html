@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="canonical"
+    href="https://munaa8805.github.io/WebDevelopmentLesson/"
+  />
+  <meta name="Description" content="Монголын геологийн холбоо" />
+  <meta
+    name="keywords"
+    content="geology, mongolian geology, geology science, mongolin geology science, монголын геологийн институт, геологийн институт, геологийн төрийн холбоо, геологийн шинжлэх ухаан, геологийн холбоо, геологийн мэргэжлийн зэрэг, мэргэшсэн геологич , мэргэшсэн инженер, геологийн мэргэшсэн мэргэжилтэн"
+  />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>MPIGM form application</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="/img/logo_mpigm.png" alt="logo" />
+        </div>
+        <div class="header-text">
+          <h4>МОНГОЛЫН ГЕОЛОГИ, УУЛ УУРХАЙН МЭРГЭЖЛИЙН ИНСТИТУТЫН</h4>
+          <h4>
+            ГИШҮҮНЧЛЭЛД ЭЛСЭХ, ГИШҮҮНИЙ ЗЭРЭГЛЭЛ АХИХАД ХҮСЭЛТ ГАРГАХ МАЯГТ
+          </h4>
+          <h4>APPLICATION FORM FOR MEMBERSHIP OR GRADE TRANSFER OF</h4>
+          <h4>
+            THE MONGOLIAN PROFESSIONAL INSTITUTE OF GEOSCIENCES AND MINING
+          </h4>
+        </div>
+      </div>
+    </div>
+    <hr />
+    <div>
+      <div class="personalDetails">
+        <span>ХУВИЙН МЭДЭЭЛЭЛ</span>
+        <span><i>(PERSONAL DETAILS)</i></span>
+      </div>
+      <div>
+        <form >
+          <div class="firstAnket">
+            <label>ЦОЛ,ХҮНДЭТГЭЛ<span class="form-english">/Title</span></label>
+            <input type="checkbox" id="mrID" name="mrID" value="mrID" />
+            <label for="mrID">Ноён<span class="form-english">/Mr</span></label>
+            <input type="checkbox" id="mrsID" name="mrsID" value="mrsID" />
+            <label for="mrsID">Хатагтай<span class="form-english">/Mrs,Ms,Miss</span></label>
+            <input type="checkbox" id="drID" name="drID" value="drID" />
+            <label for="drID">Др<span class="form-english">/Dr.</span></label>
+            <input type="checkbox" id="profID" name="profID" value="profID" />
+            <label for="profID">Проф<span class="form-english">/Prof.</span></label>
+          </div>
+          
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label>НЭР/<span class="form-english">Given name:</span></label>
+              <input type="text" class="form-control"  placeholder="Нэр">
+            </div>
+            <div class="form-group col-md-6">
+              <label >УТАС (ажил)<span class="form-english">Phone (work):</span></label>
+              <input type="number" class="form-control"  placeholder="Ажлын утасны дугаар">
+            </div>
+            
+            </div>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label >ЭЦЭГ, ЭХИЙН НЭР/<span class="form-english">Surname:</span></label>
+                <input type="text" class="form-control"  placeholder="Эцэг, эхийн нэр">
+              </div>
+              <div class="form-group col-md-6">
+                <label >УТАС(гэр)/<span class="form-english">Phone(home):</span></label>
+                <input type="number" class="form-control"  placeholder="Гэрийн утасны дугаар">
+              </div>
+              
+              </div>
+              <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label>УРГИЙН ОВОГ/<span class="form-english">Family name:</span></label>
+                    <input type="text" class="form-control"  placeholder="Ургийн овог">
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label>ФАКС/<span class="form-english">Fax:</span></label>
+                    <input type="number" class="form-control"  placeholder="Fax">
+                  </div>
+                
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label>ХҮЙС/<span class="form-english">Gender: </span></label>
+                      <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+                        <option>Эрэгтэй Male</option>
+                        <option>Эмэгтэй Female</option>
+                      </select>
+               
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label>ГАР УТАС/<span class="form-english">Mobile:</span></label>
+                    <input type="number" class="form-control"  placeholder="Утасны дугаар">
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label >ТӨРСӨН ОН,САР,ӨДӨР/<span class="form-english">Date of birth:</span></label>
+                     iNPUT BAISAN
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label  class="form-mgl">ЦАХИМ ШУУДАН/<span class="form-english">Email:</span></label>
+                      <input type="email" class="form-control"  placeholder="Цахим шуудан">
+                    </div>
+                  
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>ОРШИН СУУГАА ХАЯГ/<span class="form-english">Residential address:</span></label>
+                      <input type="text" class="form-control"  placeholder="Оршин суугаа хаяг">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label>АЖЛЫН ГАЗРЫН ХАЯГ/<span class="form-english">Business address:</span></label>
+                      <input type="text" class="form-control"  placeholder="Ажлын газрын хаяг">
+                    </div>
+                  
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label >ХОТ/<span class="form-english">City:</span></label>
+                      <input type="text" class="form-control"  placeholder="Хот">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label >ХОТ/<span class="form-english">City:</span></label>
+                      <input type="text" class="form-control"  placeholder="Хот">
+                    </div>
+                  
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label>АЙМАГ/<span class="form-english">State:</span></label>
+                      <input type="text" class="form-control"  placeholder="Аймаг">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label >АЙМАГ/<span class="form-english">State:</span></label>
+                      <input type="text" class="form-control"  placeholder="Аймаг">
+                    </div>
+                  
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label >ШУУДАНГИЙН ИНДЕКС/<span class="form-english">Postcode:</span></label>
+                      <input type="text" class="form-control"  placeholder="Шуудангийн хаяг">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label >ШУУДАНГИЙН ИНДЕКС/<span class="form-english">Postcode:</span></label>
+                      <input type="text" class="form-control" placeholder="Шуудангийн хаяг">
+                    </div>
+                  
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label >Улс/<span class="form-english">Country:</span></label>
+                      <input type="text" class="form-control"  placeholder="Улс">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label >Улс/<span class="form-english">Country:</span></label>
+                      <input type="text" class="form-control"  placeholder="Улс">
+                    </div>
+                  
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label >АЖИЛ ОЛГОГЧ:/<span class="form-english">Employer:</span></label>
+                      <input type="text" class="form-control"  placeholder="Компани нэр">
+                    </div>
+                    <div class="form-group col-md-6">
+                      <label >АЛБАН ТУШААЛ:/<span class="form-english">Position:</span></label>
+                      <input type="text" class="form-control"  placeholder="Албан тушаал">
+                    </div>
+                  
+                  </div>
+                  <div class="form-row">
+                    <div class="form-group col-md-6">
+                      <label >ТӨВЛӨРӨН АЖИЛЛАДАГ БАЙРШИЛ:/<span class="form-english">Site location:</span></label>
+           
+                    </div>
+                   
+                      <div class="form-group col-md-3">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label >
+                              Төв ажлын байр<span class="form-english">Main office</span>
+                            </label>
+                            
+                      </div>
+                      <div class="form-group col-md-3">
+                        <input class="form-check-input" type="checkbox" >
+                        <label >
+                          Уурхай<span class="form-english" >Mine site</span>
+                        </label>
+                       
+                      </div>
+               
+                    </div>
+                    <div class="form-row">
+                      <label>АЖИЛЛАДАГ САЛБАР / <span>Work Division</span></label>
+                            <select class="form-control">
+                                <option>Геологи / GeoScience</option>
+                                <option>Металлург / Metallurgy</option>
+                                <option>Захиргаа / Management</option>
+                                <option>Уурхайн инженер / Mining</option>
+                                <option>Байгаль орчин / Environment</option>
+                                <option>Бусад / Other</option>
+                            </select>
+                    
+                    </div>
+                    
+                  
+                  
+                  </div>
+                  <div class="personalDetails">
+                    <span>ХҮСЭЛТ ГАРГАЖ БУЙ ТӨРӨЛ </span>
+                    <span><i>(APPLICATION TYPE)</i></span>
+                  </div>
+        <div>
+            <col-4><input type="checkbox"  name="vehicle1" value="Bike">
+            <label > Хүндэт гишүүн/Honorary Fellow </label><br></col-4>
+            <col-4><input type="checkbox"  name="vehicle1" value="Bike">
+            <label > Ахмад гишүүн/Fellow </label><br></col-4>
+            <col-4><input type="checkbox"  name="vehicle1" value="Bike">
+            <label > Гишүүн/Member </label><br></col-4>
+
+        </div>
+        <div>
+            <col-4><input type="checkbox"  name="vehicle1" value="Bike">
+            <label > Залуу гишүүн/Graduate </label><br></col-4>
+            <col-4><input type="checkbox"  name="vehicle1" value="Bike">
+            <label> Оюутан гишүүн/Student </label><br></col-4>
+            <col-4><input type="checkbox" name="vehicle1" value="Bike">
+            <label > Гишүүн байгууллага/Company member </label><br></col-4>
+
+        </div>
+        <div class="form-row">
+            
+                  <select class="form-control" id="exampleFormControlSelect1">
+                      <option>Элсэн орох / Admission</option>
+                      <option>Дахин элсэх ( гишүүнээс хасагдаад хоёроос дээш жил болсон тохиолдолд) / Readmission</option>
+                      <option>Эрх сэргээх  / Reinstatement</option>
+                      <option>Зэрэглэл ахих / Grade transfer</option>
+                  
+                  </select>
+          
+          </div>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label  class="form-mgl">Гишүүнчлэлийн дугаар (хэрвээ байвал)/<span class="form-english">Membership No.(if applicable):</span></label>
+              <input type="text" class="form-control"  placeholder="Шуудангийн хаяг">
+            </div>
+            <div class="form-group col-md-6">
+              <label  class="form-mgl">Та гишүүнчлэлийн дүрмийн дагуу хүсэлтээ гаргаж байна уу?<span class="form-english">Are you applying under Membership by-law?</span></label>
+              <input type="text" class="form-control"  placeholder="Шуудангийн хаяг">
+            </div>
+          
+          </div>
+              <div>
+                <div class="personalDetails">
+                    <span>БОЛОВСРОЛ</span>
+                    <span><i>(ACADEMIC QUALIFICATION)</i></span>
+                  </div>
+                <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th scope="col">Боловсролын зэрэг/Qualification</th>
+                        <th scope="col">Сургуулийн нэр/Institution name</th>
+                        <th scope="col">Төгссөн он / Year conferred</th>
+                        <th scope="col">Мэргэжил/Profession</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <th scope="row">1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                        <td>@mdo</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                        <td>@fat</td>
+                      </tr>
+                      <tr>
+                        <th scope="row">3</th>
+                        <td>Larry the Bird</td>
+                        <td>@twitter</td>
+                        <td>@fat</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                  <div>
+                      <p>Таны боловсролыг батлах гэрчилгээний хуулбаруудыг энэ маягтанд хавсаргасан байна. Эдгээр хуулбарууд нь таны нэг батлан даагчын гарын үсэгтэй тохиолдолд зөвшөөрөгдөнө. Хэрвээ өмнө нь боловсролын гэрчилгээний хуулбаруудыг өгч байсан бол хавсаргах шаардлагагүй. 
+                        (A copy of your diplomas to confirm your qualification should be included in this application. Those copies are acceptable with one of your sponsor’s signature. If you have previously submitted a copy of your diplomas , this is not required)
+                        </p>
+                  </div>
+              </div>  
+          
+        
+                
+          </div>
+        </form>
+      
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>

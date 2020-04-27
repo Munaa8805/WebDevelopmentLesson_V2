@@ -610,6 +610,52 @@ fieldset {
   margin-left: 20px;
 }
 
+.logo {
+  float: left;
+  width: 10%;
+}
+
+.header-text {
+  float: right;
+  width: 90%;
+}
+
+.socialMedia1 {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  background-repeat: no-repeat;
+  top: 300px;
+  left: 1610px;
+}
+
+.socialMedia2 {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  background-repeat: no-repeat;
+  top: 345px;
+  left: 1610px;
+}
+
+.socialMedia3 {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  background-repeat: no-repeat;
+  top: 390px;
+  left: 1610px;
+}
+
+.socialMedia4 {
+  width: 40px;
+  height: 40px;
+  position: fixed;
+  background-repeat: no-repeat;
+  top: 435px;
+  left: 1610px;
+}
+
 footer {
   background-color: #404048;
   margin-top: 2rem;

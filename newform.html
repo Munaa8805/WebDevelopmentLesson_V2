@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="canonical"
+      href="https://munaa8805.github.io/WebDevelopmentLesson/"
+    />
+    <meta name="Description" content="Монголын геологийн холбоо" />
+    <meta
+      name="keywords"
+      content="geology, mongolian geology, geology science, mongolin geology science, монголын геологийн институт, геологийн институт, геологийн төрийн холбоо, геологийн шинжлэх ухаан, геологийн холбоо, геологийн мэргэжлийн зэрэг, мэргэшсэн геологич , мэргэшсэн инженер, геологийн мэргэшсэн мэргэжилтэн"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Fira+Code:300,400,500,600,700&display=swap&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="css/form.css" />
+    <title>MPIGM form application</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <img src="/img/logo_mpigm.png" alt="logo" />
+        </div>
+        <div class="header-text">
+          <h4>МОНГОЛЫН ГЕОЛОГИ, УУЛ УУРХАЙН МЭРГЭЖЛИЙН ИНСТИТУТЫН</h4>
+          <h4>
+            ГИШҮҮНЧЛЭЛД ЭЛСЭХ, ГИШҮҮНИЙ ЗЭРЭГЛЭЛ АХИХАД ХҮСЭЛТ ГАРГАХ МАЯГТ
+          </h4>
+          <h4>APPLICATION FORM FOR MEMBERSHIP OR GRADE TRANSFER OF</h4>
+          <h4>
+            THE MONGOLIAN PROFESSIONAL INSTITUTE OF GEOSCIENCES AND MINING
+          </h4>
+        </div>
+      </div>
+   
+    <hr />
+    <div class="detailed-information">
+      <form>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04">ЦОЛ, ХҮНДЭТГЭЛ / TITLE</label>
+            <select class="custom-select" id="validationDefault04" required>
+              <option selected disabled value="">Ноён/Mr</option>
+              <option>Хатагтай/Mrs, Ms, Miss.</option>
+              <option>Др/Dr.</option>
+              <option>Проф/Prof.</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">НЭР /</label>
+            <label for="validationDefault01">Given name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault01"
+              placeholder="Та нэрээ бичнэ үү"
+              required
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">ЭЦЭГ, ЭХИЙН НЭР /</label>
+            <label for="validationDefault01">Surname:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та овогоо бичнэ үү"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">УРГИЙН ОВОГ /</label>
+            <label for="validationDefault01">Family name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та ургийн овогоо бичнэ үү"
+              required
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04">ХҮЙС / Gender: </label>
+            <select class="custom-select" id="validationDefault04" required>
+              <option>Эрэгтэй/Male</option>
+              <option>Эмэгтэй/Female</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">ТӨРСӨН ОН,САР,ӨДӨР /</label>
+            <label for="validationDefault01">Date of birth:</label>
+            <input type="date" class="form-control" required />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">ОРШИН СУУГАА ХАЯГ /</label>
+            <label for="validationDefault01">Residential address:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та оршин суугаа хаягаа бичнэ үү"
+              required
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04">ХОТ / City: </label>
+            <select class="custom-select" id="validationDefault04" required>
+              <option>Улаанбаатар</option>
+              <option>Дархан</option>
+              <option>Эрдэнэт</option>
+              <option>Баян-Өлгий</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">УЛС /</label>
+            <label for="validationDefault01">Country:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та улсаа бичнэ үү"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">ШУУДАНГИЙН ИНДЕКС /</label>
+            <label for="validationDefault01">Postcode:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та шуудангийн хаягаа бичнэ үү"
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">ГАР УТАС /</label>
+            <label for="validationDefault01">Mobile:</label>
+            <input
+              type="number"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та утасаа бичнэ үү"
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">ГЭРИЙН УТАС /</label>
+            <label for="validationDefault01">HOME PHONE:</label>
+            <input
+              type="number"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та гэрийн утасаа бичнэ үү"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">АЖЛЫН УТАС /</label>
+            <label for="validationDefault01">WORK PHONE:</label>
+            <input
+              type="number"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та ажлын утсаа бичнэ үү"
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">ЦАХИМ ШУУДАН /</label>
+            <label for="validationDefault01">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та email хаягааа бичнэ үү"
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">АЖЛЫН ГАЗРЫН ХАЯГ /</label>
+            <label for="validationDefault01">Business address:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та ажлын хаягааа бичнэ үү"
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">АЖЛЫН ШУУДАНГИЙН ИНДЕКС /</label>
+            <label for="validationDefault01">Postcode:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та шуудангийн хаягаа бичнэ үү"
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01"
+              >АЖИЛ ОЛГОГЧИЙН ХАРЬЯАЛАГДАХ УЛС /</label
+            >
+            <label for="validationDefault01">Working Country:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та ажилладаг улсаа бичнэ үү"
+              required
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">АЖИЛ ОЛГОГЧ /</label>
+            <label for="validationDefault01">Employer:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та ажилладаг улсаа бичнэ үү"
+              required
+            />
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">АЛБАН ТУШААЛ /</label>
+            <label for="validationDefault01">Position:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та ажилладаг албан тушаалаа бичнэ үү"
+              required
+            />
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04"
+              >ТӨВЛӨРӨН АЖИЛЛАДАГ БАЙРШИЛ / Site location:
+            </label>
+            <select class="custom-select" id="validationDefault04" required>
+              <option>Төв ажлын байр / Main office</option>
+              <option>Уурхай / Mine site</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04"
+              >АЖИЛЛАДАГ САЛБАР / Work Division:
+            </label>
+            <select class="custom-select" id="validationDefault04" required>
+              <option>Геологи / GeoScience</option>
+              <option>Металлург / Metallurgy</option>
+              <option>Захиргаа / Management</option>
+              <option>Уурхайн инженер / Mining</option>
+              <option>Байгаль орчин / Environment</option>
+              <option>Бусад / Other</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-row">
+          <label for="validationDefault01" class="col-md-12 mb-3"
+            >ХҮСЭЛТ ГАРГАЖ БУЙ ТӨРӨЛ / (APPLICATION TYPE)</label
+          >
+        </div>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04"
+              >ГИШҮҮНИЙ ТӨРӨЛ / Member type:
+            </label>
+            <select class="custom-select" id="validationDefault04" required>
+              <option>Хүндэт гишүүн / Honorary Fellow</option>
+              <option>Ахмад гишүүн / Fellow</option>
+              <option>Гишүүн / Member</option>
+              <option>Залуу гишүүн / Graduate</option>
+              <option>Оюутан гишүүн / Student</option>
+              <option>Гишүүн байгууллага / Company member</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault04"
+              >ГИШҮҮНИЙ НЭМЭЛТ МЭДЭЭЛЭЛ / Deatailed Information:
+            </label>
+            <select class="custom-select" id="validationDefault04" required>
+              <option>Элсэн орох / Admission</option>
+              <option
+                >Дахин элсэх ( гишүүнээс хасагдаад хоёроос дээш жил болсон
+                тохиолдолд) / Readmission</option
+              >
+              <option>Эрх сэргээх / Reinstatement</option>
+              <option>Зэрэглэл ахих / Grade transfer</option>
+            </select>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01"
+              >Гишүүнчлэлийн дугаар /</label
+            >
+            <label for="validationDefault01"
+              >Membership No.(if applicable):</label
+            >
+            <input
+              type="text"
+              class="form-control"
+              id="validationDefault02"
+              placeholder="Та гишүүнчлэлийн дугаараа бичнэ үү"
+           
+            />
+          </div>
+        </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck2"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck2">
+                Та гишүүнчлэлийн дүрмийн дагуу хүсэлтээ гаргаж байна уу? / Are
+                you applying under Membership by-law?
+              </label>
+            </div>
+          </div>
+          <div class="form-row">
+              <!--Боловсролын форм-->
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01"
+                  >БОЛОВСРОЛ (ACADEMIC QUALIFICATION)</label
+                >
+              </div>
+              
+            <div class="col-md-3 mb-3">
+                <label for="validationDefault01"
+                  >Боловсролын зэрэг /</label
+                >
+                <label for="validationDefault01"
+                  >Qualification:</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Боловсролын зэрэг"
+               
+                />
+                
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault01"
+                  >Сургуулийн нэр /</label
+                >
+                <label for="validationDefault01"
+                  >Institution name:</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Сургуулийн нэр"
+               
+                />
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault01"
+                  >Төгссөн он  /</label
+                >
+                <label for="validationDefault01"
+                  >Year conferred:</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Төгссөн он"
+               
+                />
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault01"
+                  >Мэргэжил /</label
+                >
+                <label for="validationDefault01"
+                  >Profession</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Таны мэргэжил"
+               
+                />
+              </div>
+              <div class="col-md-12 mb-3">
+                <p>Таны боловсролыг батлах гэрчилгээний хуулбаруудыг энэ маягтанд хавсаргасан байна. Эдгээр хуулбарууд нь таны нэг батлан даагчын гарын үсэгтэй тохиолдолд зөвшөөрөгдөнө. Хэрвээ өмнө нь боловсролын гэрчилгээний хуулбаруудыг өгч байсан бол хавсаргах шаардлагагүй. <span>(A copy of your diplomas to confirm your qualification should be included in this application. Those copies are acceptable with one of your sponsor’s signature. If you have previously submitted a copy of your diplomas , this is not required)</span> </p>
+              </div>
+              
+
+          </div>
+          <div class="form-row">
+              <!--Ажлын  форм-->
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01"
+                  >АЖЛЫН ТУРШЛАГА / EXPERIENCE</label
+                >
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="validationDefault01"
+                  >Орсон он,сар /</label
+                >
+                <label for="validationDefault01"
+                  >From yyyy.mm</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="validationDefault02"
+                                 
+                />
+                
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="validationDefault01"
+                  >Гарсан он,сар /</label
+                >
+                <label for="validationDefault01"
+                  >To yyyy.mm</label
+                >
+                <input
+                  type="date"
+                  class="form-control"
+                  id="validationDefault02"
+                                 
+                />
+                
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault01"
+                  >Байгууллага /</label
+                >
+                <label for="validationDefault01"
+                  >Organisation</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Байгууллагын нэр"
+               
+                />
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationDefault01"
+                  >Хэлтэс  /</label
+                >
+                <label for="validationDefault01"
+                  >Department</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Хэлтэс"
+               
+                />
+              </div>
+              <div class="col-md-2 mb-3">
+                <label for="validationDefault01"
+                  >Албан тушаал  /</label
+                >
+                <label for="validationDefault01"
+                  >Position</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Албан тушаал"
+               
+                />
+              </div>
+              <div class="col-md-12 mb-3">
+                <p>Өөрийн боловсрол, ажлын талаарх дэлгэрэнгүй намтрыг энэ маягтанд хавсаргасан байна. <span>( A detail CV of your qualification, experience etc should be included in this application)</span> </p>
+              </div>
+              
+              <div class="col-md-12 mb-3">
+                <label for="validationDefault01"
+                  >Бусад мэргэжлийн байгууллагын гишүүнчлэлтэй эсэх /</label
+                >
+                <label for="validationDefault01"
+                  >Membership of other Professional Bodies</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefault02"
+                  placeholder="Та бусад холбоонд гишүүнчлэлтэй эсэх"
+               
+                />
+              </div>
+
+          </div>
+          <div class="form-row">
+            <!--Батлан даагч  форм-->
+            <div class="col-md-12 mb-3">
+              <label for="validationDefault01"
+                >БАТЛАН ДААГЧИЙН МЭДЭЭЛЭЛ (SPONSOR DETAILS)</label
+              >
+            </div>
+            <div class="col-md-12 mb-3">
+              <p>МГУУМИ-д элсэх өргөдөл гаргагч нь гурван батлан даагчтай байх ба тэдгээр нь МГУУМИ-ын Үндсэн гишүүд байна. Гишүүнчлэлийн зэрэглэл болгонд батлан даагчид тавигдах шаардлага өөр байх тул дэлгэрэнгүйг МГУУМИ-ын гишүүнчлэлийн журмаас харна уу. <span>Any applicants must have three sponsors which they have to be Principal Members of the MPIGM. Sponsor’s requirements for member grades are diverse and detail information is in the Membership procedure document</span> </p>
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault01"
+                >НЭР: </label
+              >
+              <label for="validationDefault01"
+                >Given name:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Таны нэр"      
+              />
+              
+            </div>
+            <div class="col-md-3 mb-3">
+              <label for="validationDefault01"
+                >ЭЦЭГ, ЭХИЙН НЭР: </label
+              >
+              <label for="validationDefault01"
+                >Surname:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Таны овгийн нэр"         
+              />
+              
+            </div>
+            <div class="col-md-2 mb-3">
+              <label for="validationDefault01"
+                >УТАС: </label
+              >
+              <label for="validationDefault01"
+                >Phone</label
+              >
+              <input
+                type="number"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Таны утасны дугаар"
+             
+              />
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01"
+                >ЦАХИМ ШУУДАН:</label
+              >
+              <label for="validationDefault01"
+                >Email:</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Таны е-мэйл хаяг"
+             
+              />
+            </div>
+
+
+          </div>
+          <div class="form-row">
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01">Байгууллага:</label>
+              <label for="validationDefault01">Organisation:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Байгууллагын нэр"
+                required
+              />
+            </div>
+           
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01">Албан тушаал:</label>
+              <label for="validationDefault01">Position:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Албан тушаал"
+                required
+              />
+            </div>
+            <div class="col-md-4 mb-3">
+              <label for="validationDefault01">МГУУМИ-ын гишүүний №:</label>
+              <label for="validationDefault01">MPIGM Membership No:</label>
+              <input
+                type="number"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="МГУУМИ-ын гишүүний №"
+                required
+              />
+            </div>
+            
+           
+            
+          </div>
+          <div class="form-row">
+            <div class="col-md-12 mb-3">
+              <label for="validationDefault01">Батлан даагчтай ямар холбоотой болох?</label>
+              <label for="validationDefault01">What is your relation with this sponsor?</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Батлан даагчтай ямар холбоотой болох"
+                required
+              />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="col-md-12 mb-3">
+              <label for="validationDefault01">Батлан даагч таныг мэргэжилтэний чинь хувьд хэр удаан мэдэх вэ?</label>
+              <label for="validationDefault01">How long has this sponsor known you professionally?</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                placeholder="Батлан даагч таныг мэргэжилтэний чинь хувьд хэр удаан мэдэх вэ"
+                required
+              />
+            </div>
+          </div>
+         
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <div class="col-md-12 mb-3">
+              <label >ХҮСЭЛТ ГАРГАГЧИЙН БАТАЛГАА
+                (APPLICATION’S DECLARATION)
+                </label>
+            </div>
+            
+            <div class="col-md-12 mb-3">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value=""
+                id="invalidCheck2"
+                required
+              />
+              <label class="form-check-label" for="invalidCheck2">
+                МГУУМИ-д элсэх (зэрэглэл ахих) хүсэлт гаргагчийн хувьд тус байгууллагын дүрэм, ёс зүйн журам, бусад холбогдох журмууд болон Удирдах зөвлөлөөс тухайн үед гаргасан бүхий л дүрмүүдийг ойлгож дагаж мөрдөнө гэдгийг зөвшөөрч байгаа ба МГУУМИ-ын зорилго, хүсэл эрмэлзлэлийг дэмжихээ илэрхийлж байна.  <span>(As an applicant for admission (or for grade transfer) of the MPIGM ,I agree to observe and be bound by the terms of the By-Laws, the Code of Ethics or any other Code and any rule published by the Board prevailing at the relevant time, and I undertake to promote the aims and objectives of the MPIGM)</span>
+              </label>
+            </div>
+          </div>
+        </div>
+        
+        <button class="btn btn-primary" type="submit">Энэхүү мэдээллийг үнэн гэдгийг үүгээр баталж байна</button>
+      </form>
+    </div>
+</div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
