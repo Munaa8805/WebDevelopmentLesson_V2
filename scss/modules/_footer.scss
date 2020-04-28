@@ -3,52 +3,61 @@ footer {
   background-color: $footeBackground;
   margin-top: 2rem;
 }
-.contact-map {
-  margin-top: 20px;
-}
-.wrapper-footer {
-  display: flex;
+.footer-2-of-2 {
+  display: inline-block;
   width: 100%;
-  height: 200px;
+  @media (min-width: 960px) {
+    display: flex;
+  }
 }
+.footer-1-of-2 {
+  display: inline-block;
+  width: 100%;
+  margin-left: 1rem;
+  @media (min-width: 720px) {
+    display: flex;
+  }
+}
+
 .footer__body {
   width: 100%;
   justify-content: space-around;
   margin-left: auto;
   margin-right: auto;
+
   &__header {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-weight: 700;
     color: $fontColorP;
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 35px;
-    padding-bottom: 10px;
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    margin-top: 2.18rem;
+    padding-bottom: 0.625rem;
     color: $fontColorFooterA;
   }
   &--borderbottom {
-    margin-bottom: 5px;
+    margin-bottom: 0.313rem;
     border-bottom: 5px solid $fontColorFooterA;
   }
   &--company {
-    margin-bottom: 5px;
+    margin-bottom: 0.31rem;
 
     & a {
       color: $fontColorP;
       text-decoration: none;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      font-size: 13px;
+      padding-bottom: 0.625rem;
+      padding-top: 0.625rem;
+      font-size: 0.813rem;
     }
     & i {
       color: $fontColorP;
-      padding-bottom: 10px;
-      padding-top: 10px;
-      font-size: 13px;
+      padding-bottom: 0.625rem;
+      padding-top: 0.625rem;
+      font-size: 0.813rem;
     }
     &:hover {
       background-color: $mainOrange;
-      padding: 5px 2px 5px;
+      padding: 0.3125rem 0.125rem 0.3125rem;
       transform: scale(1.01);
 
       & a,
@@ -63,10 +72,10 @@ footer {
   background-color: #303038;
   &--name {
     color: $fontColorP;
-    font-size: 13px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    width: 400px;
+    font-size: 0.813rem;
+    padding-top: 0.625rem;
+    padding-bottom: 0.625rem;
+    width: 25rem;
     margin-left: auto;
     margin-right: auto;
   }
