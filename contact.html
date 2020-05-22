@@ -150,7 +150,17 @@
           text-align: left;
         }
       }
+      #esri-map-container {
+        padding: 0px;
+        margin: 0px;
+        height: 100%;
+      }
     </style>
+    <link
+      rel="stylesheet"
+      href="https://js.arcgis.com/3.32/esri/css/esri.css"
+    />
+    <script src="https://js.arcgis.com/3.32/"></script>
     <title>Холбоо барих</title>
   </head>
   <body>
@@ -208,7 +218,7 @@
       <div class="contact-main">
         <div class="contact">
           <div class="contact contact-map">
-            <div id="map"></div>
+            <div id="esri-map-container"></div>
           </div>
           <div class="contact contact-holboo">
             <div class="row contact-row">
@@ -429,33 +439,41 @@
 
     <!---google map--->
     <script>
-      function initMap() {
-        var options = {
+      require([
+        "esri/map",
+        "esri/layers/OpenStreetMapLayer",
+        "dojo/domReady!",
+        "esri/layers/GraphicsLayer",
+      ], function (Map, OpenStreetMapLayer, GraphicsLayer) {
+        var map, openStreetMapLayer;
+
+        map = new Map("esri-map-container", {
+          center: [106.914312, 47.92511],
           zoom: 20,
-          center: { lat: 47.925115, lng: 106.914312 },
+        });
+        openStreetMapLayer = new OpenStreetMapLayer();
+        map.addLayer(openStreetMapLayer);
+
+        var graphicsLayer = new GraphicsLayer();
+        map.add(graphicsLayer);
+        var point = {
+          type: "point",
+          longitude: 106.914312,
+          latitude: 47.92511,
         };
 
-        var map = new google.maps.Map(document.getElementById("map"), options);
-      }
-      //// Ad markers
-      var marker = new google.maps.Marker({
-        position: { lat: 47.925115, lng: 106.914312 },
-        map: map,
-        icon:
-          "https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png",
-      });
-      var infoWindow = new google.maps.infoWindow({
-        content: "<h1>Геологийн мэргэжлийн институт</h1>",
-      });
-      marker.addListener("click", function () {
-        infoWindow.open(map, marker);
+        var simpleMarkerSymbol = {
+          type: "simple-marker",
+          color: [226, 119, 40], // orange
+          outline: {
+            color: [255, 255, 255], // white
+            width: 1,
+          },
+        };
+
+        graphicsLayer.add(pointGraphic);
       });
     </script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCik8P-8un-p2mRnSLBEqD_FFwCi6F8o6k&callback=initMap"
-    ></script>
     <!---Menu--->
     <script>
       function myFunction() {
