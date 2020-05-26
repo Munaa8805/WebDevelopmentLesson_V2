@@ -4,8 +4,8 @@
   position: fixed;
   background-repeat: no-repeat;
   top: 300px;
-  right: 0rem;
-  @media (max-width: 1750px) {
+  right: 15rem;
+  @media (max-width: 1800px) {
     display: none;
   }
 }
@@ -15,7 +15,6 @@
   position: fixed;
   background-repeat: no-repeat;
   top: 300px;
-  left: 100rem;
 }
 .socialMedia2 {
   width: 40px;
@@ -23,7 +22,6 @@
   position: fixed;
   background-repeat: no-repeat;
   top: 345px;
-  left: 100rem;
 }
 .socialMedia3 {
   width: 40px;
@@ -31,7 +29,6 @@
   position: fixed;
   background-repeat: no-repeat;
   top: 390px;
-  left: 100rem;
 }
 .socialMedia4 {
   width: 40px;
@@ -39,5 +36,4 @@
   position: fixed;
   background-repeat: no-repeat;
   top: 435px;
-  left: 100rem;
 }
