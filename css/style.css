@@ -713,21 +713,15 @@ fieldset {
 .socialMediaParent {
   width: 40px;
   height: 40px;
-  position: relative;
+  position: fixed;
   background-repeat: no-repeat;
   top: 300px;
-  left: 100rem;
+  right: 0rem;
 }
 
-@media (min-width: 1700px) {
+@media (max-width: 1750px) {
   .socialMediaParent {
-    left: 95rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .socialMediaParent {
-    left: 90rem;
+    display: none;
   }
 }
 
@@ -740,18 +734,6 @@ fieldset {
   left: 100rem;
 }
 
-@media (min-width: 1700px) {
-  .socialMedia1 {
-    left: 95rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .socialMedia1 {
-    left: 90rem;
-  }
-}
-
 .socialMedia2 {
   width: 40px;
   height: 40px;
@@ -759,18 +741,6 @@ fieldset {
   background-repeat: no-repeat;
   top: 345px;
   left: 100rem;
-}
-
-@media (min-width: 1700px) {
-  .socialMedia2 {
-    left: 95rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .socialMedia2 {
-    left: 90rem;
-  }
 }
 
 .socialMedia3 {
@@ -782,18 +752,6 @@ fieldset {
   left: 100rem;
 }
 
-@media (min-width: 1700px) {
-  .socialMedia3 {
-    left: 95rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .socialMedia3 {
-    left: 90rem;
-  }
-}
-
 .socialMedia4 {
   width: 40px;
   height: 40px;
@@ -801,18 +759,6 @@ fieldset {
   background-repeat: no-repeat;
   top: 435px;
   left: 100rem;
-}
-
-@media (min-width: 1700px) {
-  .socialMedia4 {
-    left: 95rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .socialMedia4 {
-    left: 90rem;
-  }
 }
 
 footer {

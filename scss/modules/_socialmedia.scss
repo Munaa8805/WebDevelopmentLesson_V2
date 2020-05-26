@@ -1,15 +1,12 @@
 .socialMediaParent {
   width: 40px;
   height: 40px;
-  position: relative;
+  position: fixed;
   background-repeat: no-repeat;
   top: 300px;
-  left: 100rem;
-  @media (min-width: 1700px) {
-    left: 95rem;
-  }
-  @media (min-width: 1600px) {
-    left: 90rem;
+  right: 0rem;
+  @media (max-width: 1750px) {
+    display: none;
   }
 }
 .socialMedia1 {
@@ -19,12 +16,6 @@
   background-repeat: no-repeat;
   top: 300px;
   left: 100rem;
-  @media (min-width: 1700px) {
-    left: 95rem;
-  }
-  @media (min-width: 1600px) {
-    left: 90rem;
-  }
 }
 .socialMedia2 {
   width: 40px;
@@ -33,12 +24,6 @@
   background-repeat: no-repeat;
   top: 345px;
   left: 100rem;
-  @media (min-width: 1700px) {
-    left: 95rem;
-  }
-  @media (min-width: 1600px) {
-    left: 90rem;
-  }
 }
 .socialMedia3 {
   width: 40px;
@@ -47,12 +32,6 @@
   background-repeat: no-repeat;
   top: 390px;
   left: 100rem;
-  @media (min-width: 1700px) {
-    left: 95rem;
-  }
-  @media (min-width: 1600px) {
-    left: 90rem;
-  }
 }
 .socialMedia4 {
   width: 40px;
@@ -61,10 +40,4 @@
   background-repeat: no-repeat;
   top: 435px;
   left: 100rem;
-  @media (min-width: 1700px) {
-    left: 95rem;
-  }
-  @media (min-width: 1600px) {
-    left: 90rem;
-  }
 }
