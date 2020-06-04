@@ -19,6 +19,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <style>
       body {
@@ -151,6 +152,15 @@
         }
       }
     </style>
+    <link rel="preconnect" href="https://api.jsonbin.io" />
+
+    <link
+      rel="preload"
+      as="script"
+      href="js/medeeModule.js"
+      crossorigin="anonymous"
+    />
+    <script src="js/medeeIndex.js" type="module"></script>
     <title>Мэдээ</title>
   </head>
   <body>
@@ -207,9 +217,7 @@
     <main>
       <div class="medee-main">
         <div class="medee-container">
-          <div class="medee-container__first">
-            <div class="medee-container__wrapper"></div>
-          </div>
+          <div class="medee-container__first" id="medee-container__first"></div>
           <div class="medee-container__second">
             <div class="medee-container__wrapper column-second">
               <div>
@@ -413,7 +421,7 @@
         </p>
       </div>
     </footer>
-    <script src="js/medee.js" defer></script>
+    <!-- <script src="js/medee.js" defer></script> -->
     <!-- <script src="js/medeeIndex.js"></script> -->
     <script>
       function myFunction() {

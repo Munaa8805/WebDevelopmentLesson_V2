@@ -17,6 +17,7 @@ export function getPosts(url, callMeBack) {
       callMeBack(posts);
     });
 }
+
 export class Post {
   constructor(_title, _medeeDate, _unshsanHun, _postBody, _medeeImg) {
     this.title = _title;
@@ -28,27 +29,27 @@ export class Post {
 
   Create() {
     return ` 
-      <div class="medee-container__wrapper">
-          <div class="medee-container_wrapper__img">
-              <img class="medee-page__img1" src="${this.medeeImg}" alt="zurag" />
-          </div>
-              <div class="medee-container_wrapper__text">
-                  <h3>${this.title}</h3>
-                  <p>
-                      <span class="index__medee-icon"
-                      ><i class="fa fa-clock-o">&ensp; ${this.medeeDate} 09:05:11</i>&ensp;<i
-                          class="fa fa-eye"
-                      >
-                      ${this.unshsanHun} үзсэн</i
-                      ></span
-                      >
-                  </p>
-                  <p class="medee-container_wrapper__text--paragraph">
-                      
-                  ${this.postBody}
-                  </p>
-          </div>
-          <div class="clearfix"></div>
+    <div class="medee-container__wrapper">
+      <div class="medee-container_wrapper__img">
+          <img class="medee-page__img1" src="${this.medeeImg}" alt="zurag" />
+      </div>
+        <div class="medee-container_wrapper__text">
+            <h3>${this.title}</h3>
+            <p>
+                <span class="index__medee-icon"
+                ><i class="fa fa-clock-o">&ensp; ${this.medeeDate}</i>&ensp;<i
+                    class="fa fa-eye"
+                >
+                ${this.unshsanHun} үзсэн</i
+                ></span
+                >
+            </p>
+            <p class="medee-container_wrapper__text--paragraph">
+                
+            ${this.postBody}
+            </p>
+        </div>
+      <div class="clearfix"></div>
     </div>`;
   }
 }
