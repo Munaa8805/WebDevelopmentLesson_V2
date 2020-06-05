@@ -352,13 +352,11 @@ fieldset {
 }
 
 .medee-main {
-  height: 140vh;
+  height: auto;
 }
 
 .medee-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   width: 100%;
 }
 
@@ -368,6 +366,14 @@ fieldset {
 
 .medee-container__second {
   width: 35%;
+}
+
+@media (min-width: 960px) {
+  .medee-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .medee-container__first {
@@ -380,13 +386,20 @@ fieldset {
 }
 
 .medee-container_wrapper__img {
-  float: left;
-  width: 30%;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .medee-container_wrapper__img {
+    float: left;
+    width: 30%;
+  }
 }
 
 .medee-container_wrapper__text {
-  float: right;
-  width: 65%;
+  width: 90%;
+  margin: 0 auto;
 }
 
 .medee-container_wrapper__text--paragraph {
@@ -396,6 +409,15 @@ fieldset {
 .medee-container_wrapper__text h3 {
   color: #0099cc;
   margin-bottom: 5px;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+@media (min-width: 720px) {
+  .medee-container_wrapper__text h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
 }
 
 .medee-container_wrapper__text .index__medee-icon {
@@ -408,6 +430,14 @@ fieldset {
   margin-top: 5px;
 }
 
+@media (min-width: 960px) {
+  .medee-container_wrapper__text {
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+  }
+}
+
 .clearfix {
   clear: both;
 }
@@ -416,6 +446,16 @@ fieldset {
   height: auto;
   width: 100%;
   border-radius: 5px;
+}
+
+#medee_page_second_column {
+  display: none;
+}
+
+@media (min-width: 960px) {
+  #medee_page_second_column {
+    display: block;
+  }
 }
 
 .bidniituhai-main {
@@ -612,11 +652,17 @@ fieldset {
 }
 
 .contact-row {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: inline-block;
   height: 50vh;
   margin-top: 40px;
+}
+
+@media (min-width: 960px) {
+  .contact-row {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .contact-6-info {
@@ -642,11 +688,19 @@ fieldset {
 
 .form-head-group {
   display: inline-block;
-  width: 32%;
-  margin-bottom: 10px;
+  width: 100%;
+  margin-bottom: 5px;
   font-size: 13px;
-  padding: 6px 12px;
   height: 44px;
+}
+
+@media (min-width: 960px) {
+  .form-head-group {
+    width: 32%;
+    height: 44px;
+    margin-bottom: 10px;
+    padding: 6px 12px;
+  }
 }
 
 .form-area {
@@ -698,6 +752,25 @@ fieldset {
 
 .form-control {
   font-size: 1rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  .form-control {
+    width: 100%;
+  }
+}
+
+#exampleFormControlTextarea1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 960px) {
+  #exampleFormControlTextarea1 {
+    width: 95%;
+  }
 }
 
 .logo {

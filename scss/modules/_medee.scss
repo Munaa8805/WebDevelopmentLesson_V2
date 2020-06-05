@@ -1,15 +1,18 @@
 @import "../base/base";
 .medee-main {
-  height: 140vh;
+  height: auto;
 }
 .medee-container {
-  display: flex;
+  display: inline-block;
   width: 100%;
   &__first {
     width: 55%;
   }
   &__second {
     width: 35%;
+  }
+  @media (min-width: 960px) {
+    display: flex;
   }
 }
 .medee-container__first {
@@ -31,19 +34,29 @@
 }
 
 .medee-container_wrapper__img {
-  float: left;
-  width: 30%;
+  width: 90%;
+  margin: 0 auto;
+  @media (min-width: 960px) {
+    float: left;
+    width: 30%;
+  }
 }
 
 .medee-container_wrapper__text {
-  float: right;
-  width: 65%;
+  width: 90%;
+  margin: 0 auto;
   &--paragraph {
     margin-right: 20px;
   }
   & h3 {
     color: $fontColorSubtitle;
     margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    @media (min-width: 720px) {
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
   }
   .index__medee-icon {
     margin-bottom: 5px;
@@ -53,6 +66,11 @@
     line-height: 1.5;
     margin-top: 5px;
   }
+  @media (min-width: 960px) {
+    float: left;
+    width: 60%;
+    margin-left: 5%;
+  }
 }
 .clearfix {
   clear: both;
@@ -61,4 +79,10 @@
   height: auto;
   width: 100%;
   border-radius: 5px;
+}
+#medee_page_second_column {
+  display: none;
+  @media (min-width: 960px) {
+    display: block;
+  }
 }
